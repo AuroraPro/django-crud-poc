@@ -1,0 +1,33 @@
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Virtual environment
+env/
+venv/
+
+# Database and settings
+*.sqlite3
+db.sqlite3
+
+# Django secret settings
+*.env
+
+# Static and media
+staticfiles/
+media/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Migration files
+*.log
